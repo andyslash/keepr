@@ -1,0 +1,31 @@
+{
+  "name": "keepr",
+  "version": "1.0.0",
+  "description": "Your new bare-bones project includes minimal organization with a single `main.rs` file and a few assets.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i input.css -o assets/tailwind.css",
+    "watch:css": "npx tailwindcss -i input.css -o assets/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyslash/keepr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyslash/keepr/issues"
+  },
+  "homepage": "https://github.com/andyslash/keepr#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "daisyui": "^5.0.18",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.3"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.3"
+  }
+}

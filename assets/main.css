@@ -1,0 +1,44 @@
+html,
+body,
+#main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+* {
+    user-select: none;
+}
+
+.tabs-lift > .tab:has(input:checked) {
+    background-color: var(--color-base-100);
+}
+
+.tabs-lift > .tab:has(input:checked) span,
+.tabs-lift > .tab:has(input:checked) svg {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.tabs-lift > .tab:has(input) span,
+.tabs-lift > .tab:has(input) svg {
+    font-weight: 600;
+}
+
+.tabs-lift > .tab:has(input) svg {
+    color: var(--color-base-100);
+}
+
+::-webkit-scrollbar {
+    width: 1.5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color-base-200);
+}
